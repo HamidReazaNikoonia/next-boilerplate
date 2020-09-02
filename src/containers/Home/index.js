@@ -1,23 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styled from '@emotion/styled';
-
-const HelloWord = styled('h1')`
-  font-size: 36px;
-`;
-
-const Container = styled('div')`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-`;
-
 export function Home({ t }) {
   return (
-    <Container>
-      <HelloWord>{t('phrases.welcome')}</HelloWord>
-    </Container>
+    <div>
+      <h3>{t('phrases.welcome')}</h3>
+    </div>
   );
 }
 
