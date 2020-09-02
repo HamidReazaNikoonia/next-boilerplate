@@ -17,7 +17,7 @@ import { getJokes } from './store/actions';
 import { selectJokes } from './store/selectors';
 
 // styles
-// import styles from './styles/Home.module.scss';
+import styles from './styles/Home.module.scss';
 
 export function Home({ jokesData, getJokes }) {
   useInjectSaga({ key: 'jokes', saga });
@@ -32,7 +32,7 @@ export function Home({ jokesData, getJokes }) {
         {' '}
         click here{' '}
       </Button>
-      <h3>sanaz jonam</h3>
+      <div className={styles.test}>sanaz jonam</div>
     </div>
   );
 }

@@ -8,6 +8,8 @@ import App from 'next/app';
 import withReduxStore from 'utils/with-redux-store';
 import { appWithTranslation } from 'utils/with-i18next';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './../globalStyles/index.scss';
 import 'typeface-metropolis';
 import '@typefaces-pack/typeface-inter';
 
