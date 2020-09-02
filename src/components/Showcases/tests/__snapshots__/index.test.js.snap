@@ -3,11 +3,11 @@
 exports[`<Showcases /> Should render correctly 1`] = `
 <div>
   <div
-    class="css-1hvjfqy-Container e1vuap0q0"
+    class="css-1hvjfqy-Container exfkgdd0"
     id="exampleGetApi"
   >
     <button
-      class="css-67bxaj-ButonGetApi e1vuap0q1"
+      class="css-67bxaj-ButonGetApi exfkgdd1"
     />
   </div>
 </div>
@@ -16,14 +16,14 @@ exports[`<Showcases /> Should render correctly 1`] = `
 exports[`<Showcases /> When props.loading is true must render component <Spiner /> 1`] = `
 <div>
   <div
-    class="css-1hvjfqy-Container e1vuap0q0"
+    class="css-1hvjfqy-Container exfkgdd0"
     id="exampleGetApi"
   >
     <button
-      class="css-67bxaj-ButonGetApi e1vuap0q1"
+      class="css-67bxaj-ButonGetApi exfkgdd1"
     />
     <div
-      class="css-d9vn3c-SpinnerRoot elalafq0"
+      class="css-d9vn3c-SpinnerRoot eks5uc10"
     />
   </div>
 </div>

@@ -3,34 +3,34 @@
 exports[`<Header /> Should render correctly 1`] = `
 <div>
   <header
-    class="css-w41d0-HeaderRoot ez4dfsd0"
+    class="css-w41d0-HeaderRoot e5zvaax0"
   >
     <div
-      class="css-u5y1t0-HeaderContainer ez4dfsd1"
+      class="css-u5y1t0-HeaderContainer e5zvaax1"
     >
       <nav
-        class="css-wvyf6s-NavRoot ez4dfsd2"
+        class="css-wvyf6s-NavRoot e5zvaax2"
       >
         <div
-          class="css-1vw1113-ListItem ez4dfsd3"
+          class="css-1vw1113-ListItem e5zvaax3"
         >
           <a
-            class="css-15ani8u-ItemLink epoma0f0"
+            class="css-15ani8u-ItemLink efsj4xr0"
             href="/#features"
           />
           <a
-            class="css-15ani8u-ItemLink epoma0f0"
+            class="css-15ani8u-ItemLink efsj4xr0"
             href="/#exampleGetApi"
           />
         </div>
         <div
-          class="css-kh7q0g-Space ez4dfsd5"
+          class="css-kh7q0g-Space e5zvaax5"
         />
         <div
-          class="css-1jbsa08-ListActions ez4dfsd4"
+          class="css-1jbsa08-ListActions e5zvaax4"
         >
           <select
-            class="css-rdesed-SelectRoot e1ut4ry90"
+            class="css-rdesed-SelectRoot e1t7ooym0"
             id="languages"
             name="languages"
           >

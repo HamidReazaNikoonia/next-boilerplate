@@ -3,38 +3,38 @@
 exports[`<Home /> should render and match the snapshot 1`] = `
 <div>
   <header
-    class="css-w41d0-HeaderRoot ez4dfsd0"
+    class="css-w41d0-HeaderRoot e5zvaax0"
   >
     <div
-      class="css-u5y1t0-HeaderContainer ez4dfsd1"
+      class="css-u5y1t0-HeaderContainer e5zvaax1"
     >
       <nav
-        class="css-wvyf6s-NavRoot ez4dfsd2"
+        class="css-wvyf6s-NavRoot e5zvaax2"
       >
         <div
-          class="css-1vw1113-ListItem ez4dfsd3"
+          class="css-1vw1113-ListItem e5zvaax3"
         >
           <a
-            class="css-15ani8u-ItemLink epoma0f0"
+            class="css-15ani8u-ItemLink efsj4xr0"
             href="/#features"
           >
             phrases.features
           </a>
           <a
-            class="css-15ani8u-ItemLink epoma0f0"
+            class="css-15ani8u-ItemLink efsj4xr0"
             href="/#exampleGetApi"
           >
             phrases.apiExample
           </a>
         </div>
         <div
-          class="css-kh7q0g-Space ez4dfsd5"
+          class="css-kh7q0g-Space e5zvaax5"
         />
         <div
-          class="css-1jbsa08-ListActions ez4dfsd4"
+          class="css-1jbsa08-ListActions e5zvaax4"
         >
           <select
-            class="css-rdesed-SelectRoot e1ut4ry90"
+            class="css-rdesed-SelectRoot e1t7ooym0"
             id="languages"
             name="languages"
           >
@@ -55,173 +55,173 @@ exports[`<Home /> should render and match the snapshot 1`] = `
   </header>
   <main>
     <div
-      class="css-1f5wcpk-BannerRoot eywty1z0"
+      class="css-1f5wcpk-BannerRoot e14450ig0"
     >
       <img
         alt="react-next-boilerplate"
-        class="css-1wov1b9-Logo eywty1z3"
+        class="css-1wov1b9-Logo e14450ig3"
         src="/static/images/reac-next-boilerplate-logo.svg"
       />
       <h1
-        class="css-1f42zqr-Title eywty1z1"
+        class="css-1f42zqr-Title e14450ig1"
       >
         title
       </h1>
       <h2
-        class="css-pfcoqg-SubTitle eywty1z2"
+        class="css-pfcoqg-SubTitle e14450ig2"
       >
         subTitle
       </h2>
     </div>
     <div
-      class="css-k8tdx0-Container e18s5a7r0"
+      class="css-k8tdx0-Container emzppbk0"
       id="features"
     >
       <div
-        class="css-jbe736-FeaturesRoot e18s5a7r1"
+        class="css-jbe736-FeaturesRoot emzppbk1"
       >
         <div
-          class="css-1jpy3hs-FeaturesListContainer e18s5a7r3"
+          class="css-1jpy3hs-FeaturesListContainer emzppbk3"
         >
           <div
-            class="css-dblltl-FeaturesList e18s5a7r2"
+            class="css-dblltl-FeaturesList emzppbk2"
           >
             <div
-              class="css-qup410-FeatureItem e18s5a7r4"
+              class="css-qup410-FeatureItem emzppbk4"
             >
               <h3
-                class="css-gv7zs-Title e18s5a7r5"
+                class="css-gv7zs-Title emzppbk5"
               >
                 SEO
               </h3>
               <p
-                class="css-eslccy-Content e18s5a7r6"
+                class="css-eslccy-Content emzppbk6"
               >
                 features.seo
               </p>
             </div>
             <div
-              class="css-qup410-FeatureItem e18s5a7r4"
+              class="css-qup410-FeatureItem emzppbk4"
             >
               <h3
-                class="css-gv7zs-Title e18s5a7r5"
+                class="css-gv7zs-Title emzppbk5"
               >
                 redux-saga
               </h3>
               <p
-                class="css-eslccy-Content e18s5a7r6"
+                class="css-eslccy-Content emzppbk6"
               >
                 features.reduxSaga
               </p>
             </div>
             <div
-              class="css-qup410-FeatureItem e18s5a7r4"
+              class="css-qup410-FeatureItem emzppbk4"
             >
               <h3
-                class="css-gv7zs-Title e18s5a7r5"
+                class="css-gv7zs-Title emzppbk5"
               >
                 next-i18next
               </h3>
               <p
-                class="css-eslccy-Content e18s5a7r6"
+                class="css-eslccy-Content emzppbk6"
               >
                 features.nextI18next
               </p>
             </div>
             <div
-              class="css-qup410-FeatureItem e18s5a7r4"
+              class="css-qup410-FeatureItem emzppbk4"
             >
               <h3
-                class="css-gv7zs-Title e18s5a7r5"
+                class="css-gv7zs-Title emzppbk5"
               >
                 i18next
               </h3>
               <p
-                class="css-eslccy-Content e18s5a7r6"
+                class="css-eslccy-Content emzppbk6"
               >
                 features.i18next
               </p>
             </div>
             <div
-              class="css-qup410-FeatureItem e18s5a7r4"
+              class="css-qup410-FeatureItem emzppbk4"
             >
               <h3
-                class="css-gv7zs-Title e18s5a7r5"
+                class="css-gv7zs-Title emzppbk5"
               >
                 redux
               </h3>
               <p
-                class="css-eslccy-Content e18s5a7r6"
+                class="css-eslccy-Content emzppbk6"
               >
                 features.redux
               </p>
             </div>
             <div
-              class="css-qup410-FeatureItem e18s5a7r4"
+              class="css-qup410-FeatureItem emzppbk4"
             >
               <h3
-                class="css-gv7zs-Title e18s5a7r5"
+                class="css-gv7zs-Title emzppbk5"
               >
                 reselect
               </h3>
               <p
-                class="css-eslccy-Content e18s5a7r6"
+                class="css-eslccy-Content emzppbk6"
               >
                 features.reselect
               </p>
             </div>
             <div
-              class="css-qup410-FeatureItem e18s5a7r4"
+              class="css-qup410-FeatureItem emzppbk4"
             >
               <h3
-                class="css-gv7zs-Title e18s5a7r5"
+                class="css-gv7zs-Title emzppbk5"
               >
                 Immer
               </h3>
               <p
-                class="css-eslccy-Content e18s5a7r6"
+                class="css-eslccy-Content emzppbk6"
               >
                 features.immer
               </p>
             </div>
             <div
-              class="css-qup410-FeatureItem e18s5a7r4"
+              class="css-qup410-FeatureItem emzppbk4"
             >
               <h3
-                class="css-gv7zs-Title e18s5a7r5"
+                class="css-gv7zs-Title emzppbk5"
               >
                 @testing-library/react
               </h3>
               <p
-                class="css-eslccy-Content e18s5a7r6"
+                class="css-eslccy-Content emzppbk6"
               >
                 features.testingLibraryReact
               </p>
             </div>
             <div
-              class="css-qup410-FeatureItem e18s5a7r4"
+              class="css-qup410-FeatureItem emzppbk4"
             >
               <h3
-                class="css-gv7zs-Title e18s5a7r5"
+                class="css-gv7zs-Title emzppbk5"
               >
                 Typefaces
               </h3>
               <p
-                class="css-eslccy-Content e18s5a7r6"
+                class="css-eslccy-Content emzppbk6"
               >
                 features.typefaces
               </p>
             </div>
             <div
-              class="css-qup410-FeatureItem e18s5a7r4"
+              class="css-qup410-FeatureItem emzppbk4"
             >
               <h3
-                class="css-gv7zs-Title e18s5a7r5"
+                class="css-gv7zs-Title emzppbk5"
               >
                 Emotion
               </h3>
               <p
-                class="css-eslccy-Content e18s5a7r6"
+                class="css-eslccy-Content emzppbk6"
               >
                 features.emotion
               </p>
@@ -231,11 +231,11 @@ exports[`<Home /> should render and match the snapshot 1`] = `
       </div>
     </div>
     <div
-      class="css-1hvjfqy-Container e1vuap0q0"
+      class="css-1hvjfqy-Container exfkgdd0"
       id="exampleGetApi"
     >
       <button
-        class="css-67bxaj-ButonGetApi e1vuap0q1"
+        class="css-67bxaj-ButonGetApi exfkgdd1"
       >
         phrases.getShowcases
       </button>

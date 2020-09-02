@@ -1,0 +1,23 @@
+/**
+ *
+ * {{ properCase name }}
+ *
+ */
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import { withTranslation } from 'utils/with-i18next';
+
+export function {{ properCase name }}({ t }) {
+  return (
+    <div>
+      <div>{t('')}</div>
+    </div>
+  );
+}
+
+{{ properCase name }}.propTypes = {
+  t: PropTypes.func,
+};
+
+export default withTranslation('{{ properCase name }}')({{ properCase name }});

@@ -5,6 +5,7 @@
   "author": "<>",
   "private": "true",
   "scripts": {
+    "generate": "plop --plopfile server/internals/generators/index.js",
     "dev": "cross-env node ./server/app.js src",
     "build": "next build",
     "start": "cross-env NODE_ENV=production node ./server/app.js",
@@ -78,6 +79,7 @@
     "husky": "^2.4.1",
     "jest-cli": "^24.9.0",
     "lint-staged": "^10.0.3",
+    "plop": "^2.7.4",
     "prettier": "^1.18.2",
     "react-test-renderer": "^16.12.0",
     "whatwg-fetch": "^3.0.0"
