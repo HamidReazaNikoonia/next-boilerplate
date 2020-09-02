@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 
 import styled from '@emotion/styled';
 
-import SelectLanguages from 'components/SelectLanguages';
-
 const HelloWord = styled('h1')`
   font-size: 36px;
 `;
@@ -18,7 +16,6 @@ const Container = styled('div')`
 export function Home({ t }) {
   return (
     <Container>
-      <SelectLanguages t={t} />
       <HelloWord>{t('phrases.welcome')}</HelloWord>
     </Container>
   );

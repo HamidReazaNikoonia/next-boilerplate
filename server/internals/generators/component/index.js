@@ -44,12 +44,6 @@ module.exports = {
         templateFile: './component/index.test.js.hbs',
         abortOnFail: true,
       },
-      {
-        type: 'add',
-        path: '../../../src/components/{{properCase name}}/tests/__snapshots__/index.test.js.snap',
-        templateFile: './component/index.test.js.snap.hbs',
-        abortOnFail: true,
-      },
     ];
 
     return actions;
