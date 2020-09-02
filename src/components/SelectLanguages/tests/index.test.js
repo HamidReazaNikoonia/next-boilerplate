@@ -2,7 +2,7 @@ import React from 'react';
 
 import { fireEvent, render } from '@testing-library/react';
 
-import SelectLanguages from '../SelectLanguages';
+import SelectLanguages from '..';
 
 describe('<SelectLanguages />', () => {
   const spy = jest.fn();

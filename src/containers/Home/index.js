@@ -1,48 +1,31 @@
-import React, { memo } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-import { compose } from 'redux';
-import { connect } from 'react-redux';
-import { createStructuredSelector } from 'reselect';
+import styled from '@emotion/styled';
 
-import { useInjectReducer } from 'utils/inject-reducer';
-import { useInjectSaga } from 'utils/inject-saga';
+import SelectLanguages from 'components/SelectLanguages';
 
-import Layout from 'components/Layout';
-import Features from 'components/Features';
-import Showcases from 'components/Showcases';
+const HelloWord = styled('h1')`
+  font-size: 36px;
+`;
 
-import saga from './saga';
-import reducer from './reducer';
-import { getShowcases } from './actions';
-import { selectShowcases } from './selectors';
+const Container = styled('div')`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+`;
 
-export function Home({ getShowcases, showcasesData }) {
-  useInjectSaga({ key: 'showcases', saga });
-  useInjectReducer({ key: 'showcases', reducer });
-
+export function Home({ t }) {
   return (
-    <Layout>
-      <Features />
-
-      <Showcases onGetShowcases={getShowcases} data={showcasesData} />
-    </Layout>
+    <Container>
+      <SelectLanguages t={t} />
+      <HelloWord>{t('phrases.welcome')}</HelloWord>
+    </Container>
   );
 }
 
-const mapStateToProps = createStructuredSelector({
-  showcasesData: selectShowcases(),
-});
-
-export function mapDispatchToProps(dispatch) {
-  return { getShowcases: () => dispatch(getShowcases()) };
-}
-
-const withConnect = connect(mapStateToProps, mapDispatchToProps);
-
 Home.propTypes = {
-  showcasesData: PropTypes.object,
-  getShowcases: PropTypes.func,
+  t: PropTypes.func,
 };
 
-export default compose(withConnect, memo)(Home);
+export default Home;

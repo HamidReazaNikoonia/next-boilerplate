@@ -17,7 +17,7 @@ IndexPage.propTypes = {
 };
 
 IndexPage.getInitialProps = async () => ({
-  namespacesRequired: ['common', 'banner', 'features'],
+  namespacesRequired: ['common'],
 });
 
 export default withTranslation('common')(IndexPage);

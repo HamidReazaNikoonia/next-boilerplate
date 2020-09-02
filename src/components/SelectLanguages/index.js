@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
+import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 
-import { i18n } from 'utils/with-i18next';
+import { i18n } from "utils/with-i18next";
 
-const SelectRoot = styled('select')`
+const SelectRoot = styled("select")`
   border-radius: 4px;
   width: 100px;
   height: 30px;
@@ -26,15 +26,20 @@ export function SelectLanguages({ t }) {
   };
 
   return (
-    <SelectRoot name="languages" id="languages" value={select} onChange={handleSelect}>
-      <option value="es">{t('languages.es')}</option>
-      <option value="en">{t('languages.en')}</option>
+    <SelectRoot
+      name="languages"
+      id="languages"
+      value={select}
+      onChange={handleSelect}
+    >
+      <option value="es">{t("languages.es")}</option>
+      <option value="en">{t("languages.en")}</option>
     </SelectRoot>
   );
 }
 
 SelectLanguages.propTypes = {
-  t: PropTypes.func,
+  t: PropTypes.func
 };
 
 export default SelectLanguages;
